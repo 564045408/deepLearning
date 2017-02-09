@@ -24,7 +24,7 @@ model = tf.initialize_all_variables()
 with tf.Session() as session:
     session.run(model)
     #循环训练N次
-    for i in range(8000):
+    for i in range(10000):
         #x随机取值
         x_value = np.random.rand()
         #建立模型y=5x+6
